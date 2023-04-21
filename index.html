@@ -1,54 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
     <title>Rhythmic</title>
 </head>
-<body>
-        <div class="content">
-            <div class="top-bar">
-                <span class="material-symbols-rounded">expand_more</span>
-                <span>Now Playing</span>
-                <span class="material-symbols-rounded">more_horiz</span>
-            </div>
-            <div class="image-container">
-                <div class="music-img">
-                    <!-- <img src="img/image-1.jpg" alt=""> -->
-                </div>
-            </div>
-            <div class="music-titles">
-                <div class="name">Fake Name</div>
-                <p class="artiste">Douglas</p>
-            </div>
-            <div class="timeline">
-                <div class="timeline-bar">
-                    <span></span>
-                </div>
-                <div class="time">
-                    <span class="current">0:00</span>
-                    <span class="end">5:30</span>
-                </div>
-            </div>
-            <div class="control-btn">
-                <span class="material-symbols-rounded" id="repeat">repeat</span>
-                <span class="material-symbols-rounded" id="previous">undo</span>
-                <div class="play-pause">
-                    <span class="material-symbols-rounded">play_arrow</span>
-                </div>
-                <span class="material-symbols-rounded" id="next">redo</span>
-                <span class="material-symbols-rounded" id="shuffle">shuffle</span>
+
+<body id="music-wrapper">
+    <!-- <div class="logo">
+        <img src="img/logo-1.png" alt="Logo">
+    </div> -->
+
+    <div class="content">
+        <div class="top-bar">
+            <span class="material-symbols-rounded">expand_more</span>
+            <span>Now Playing</span>
+            <span class="material-symbols-rounded">more_horiz</span>
+        </div>
+        <div class="image-container">
+            <div class="music-img">
+                <img src="img/image-1.jpg" alt="">
             </div>
         </div>
+        <div class="music-titles">
+            <div class="name">Once Again</div>
+            <p class="artiste">OST Track List</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-bar">
+                <span></span>
+            </div>
+            <div class="time">
+                <span class="current">0:00</span>
+                <span class="end">5:30</span>
+            </div>
+        </div>
+        <div class="controls-btn">
+            <span class="material-symbols-rounded" id="repeat">repeat</span>
+            <span class="material-symbols-rounded" id="previous">undo</span>
+            <div class="play-pause">
+                <span class="material-symbols-rounded">play_arrow</span>
+            </div>
+            <span class="material-symbols-rounded" id="next">redo</span>
+            <span class="material-symbols-rounded" id="shuffle">shuffle</span>
+        </div>
+    </div>
 
-        <audio src="music/music-1.mp3" class="main-music"></audio>
+    <audio src="music/music-1.mp4" class="main-music"></audio>
+
 
     <script src="playlist.js"></script>
     <script src="script.js"></script>
 
 </body>
+
 </html>
