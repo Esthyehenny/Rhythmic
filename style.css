@@ -91,7 +91,7 @@ body {
 
 .timeline-bar {
     position: relative;
-    width: 10%;
+    width: 0;
     height: inherit;
     border-radius: inherit;
     background: #359334;
